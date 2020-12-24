@@ -1,8 +1,21 @@
+body{
+    height: 100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://media.gettyimages.com/photos/large-statue-of-william-shakespeare-picture-id182175266?k=6&m=182175266&s=612x612&w=0&h=VAwIP73dwHShfRHoZly37nudMYYCh8q3BE1hvMDfYNo=);
+}
+html{
+    height: 100%;
+}
 textarea{
-    width: 90%;
+    width: 80%;
     height: 20vh;
     display: block;
     margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 #output{
     border: 2px solid black;
@@ -10,5 +23,54 @@ textarea{
     width: 80%;
     margin: 1rem;
     padding: 1rem;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
 
 }
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vh;
+    color:white;
+    margin: 0rem;
+
+}
+#btn-translate{
+    width: 10pc;
+    height: 3pc;
+    border-radius: 60%;
+    font-size: large;
+    font-weight: bolder;
+    background-color: yellow;
+    margin-top: 2rem;
+    padding: 10px;
+    margin-left: 1rem;
+
+  }
+#btn-translate:hover{
+    margin: 1rem;
+    width: 10pc;
+    height: 3pc;
+    border-radius: 60%;
+    font-size: large;
+    font-weight: bolder;
+    background-color:green;
+
+
+}
+.head1{
+    font-weight: bolder;
+    color: rgb(17, 19, 17);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size:30px;
+    color:black;
+}
+
+
